@@ -1,0 +1,35 @@
+
+    table{
+        font-family: helvetica;
+        border-collapse: collapse;
+    }
+    th{
+        background: #ccc;
+    }
+    td, th{
+        border:1px solid #aaa;
+        padding: 10px;
+    }
+    .center{
+    	text-align: center;
+    }
+
+nav {
+    position: relative;
+    top: 20px;
+    background-color: #ccc;
+    padding-top: 10px;
+    font-family: helvetica;    
+}
+nav a{
+    display:inline-block;
+    text-decoration:none;
+    color: #000;
+    margin-left: 10px;
+    padding:3px;
+    background-color:white;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+
+}
+nav a:hover{text-decoration: underline;}
